@@ -1,0 +1,194 @@
+@media (max-width: 767.99px) {
+    .btn {
+        font-size: 14px;
+        padding: 8px 28px;
+    }
+    .logo {
+        font-size: 18px;
+    }
+    .header__container {
+        padding-top: 35px;
+    }
+    .nav__link:not(:last-child) {
+        margin-right: 36px;
+    }
+    .nav__link {
+        font-size: 16px;
+    }
+    .box__container , .contact__container {
+        padding-top: 100px;
+    }
+    .subtitle {
+        max-width: 435px;
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 100%; 
+        margin-bottom: 25px;
+    }
+    .desc {
+        padding-bottom: 24px;
+    }
+    .title {
+        font-size: 52px;
+        padding-bottom: 24px;
+    }
+    .image {
+        width: 320px;
+    }
+    .logos {
+        margin-top: 120px;
+    }
+    .logo__menu {
+        display: flex;
+    }
+    .logos__logo > svg {
+        width: 100px;
+    }
+    .logos__logo:not(:last-child) {
+        margin-right: 95px;
+    }
+    .text-2 {
+        margin-left: 80px;
+    }
+    .subtitle {
+        max-width: 435px;
+        font-size: 38px;
+    }
+    .testimonial {
+        margin-top: 120px;
+    }
+    .review {
+        margin-top: 26px;
+        margin-bottom: 100px;
+    }
+    .card {
+        width: 240px;
+        height: 284px;
+        margin: 0 6px;
+    }
+}
+
+
+@media (max-width: 425px) {
+    .header__nav {
+        display: none;
+    }
+    .hamburger-menu {
+        display: block;
+    }
+    .box__container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .contact__container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .btn {
+        font-size: 12px;
+        padding: 6px 12px;
+        margin-bottom: 48px;
+    }
+    .logo {
+        font-size: 16px;
+    }
+    .header__container {
+        padding-top: 26px;
+    }
+    .title {
+        font-size: 40px;
+    }
+    .text-1 {
+        text-align: center;
+    }
+    .text-2 {
+        text-align: center;
+        margin-left: 0;
+    }
+    .logos {
+        margin-top: 120px;
+    }
+    .logo__menu {
+        padding: 16px 6px;
+        display: flex;
+    }
+    .logos__logo > svg {
+        width: 60px;
+    }
+    .logos__logo:not(:last-child) {
+        margin-right: 22px;
+    }
+    
+    .text-3 {
+        margin: 0;
+        padding: 15px;
+        width: 380px;
+        text-align: center;
+    }
+    .arrow {
+        transform: rotate(90deg);
+    }
+    .testimonial {
+        margin: 0 25px;
+    }
+    .review {
+        display: flex;
+        flex-direction: column;
+    }
+    .card {
+        margin: 0;
+        width: 319px;
+        height: 304px;
+        padding: 10px;
+    }
+    .card:not(:first-child) {
+        margin-top: 40px;
+    }
+    .footer__col:not(:last-child) {
+        margin-right: 0;
+    }
+    .footer__container {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .footer__desc {
+        font-size: 12px;
+    }
+    .footer {
+        margin-top: 110px;
+    }
+}
+
+
+@media (max-width: 320px) {
+    .image {
+        width: 320px
+    }
+    .text-1 {
+        max-width: 380px;
+    }
+    .title {
+        width: 320px;
+        font-size: 32px;
+    }
+    .subtitle {
+        font-size: 32px;
+    }
+    .box__container {
+        padding-top: 60px;
+    }
+    .contact__container {
+        padding-top: 60px;
+    }
+    .desc {
+        font-size: 14px;
+    }
+    .card {
+        margin-left: 15px;
+    }
+
+}
+
